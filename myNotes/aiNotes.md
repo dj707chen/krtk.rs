@@ -1,14 +1,17 @@
 # AI QA
 
-## 1
+## 1 Add commands for running the app
 ===AIq1:
     please add a command in the scripts to start and run the server
 
 ===AIa1.gpt5:
+Added the following to package.json:
+```
     "start": "node bin/krtk-rs.js",
     "dev": "ts-node bin/krtk-rs.ts"
+```
 
-## 2
+## 2 How the cargo build was triggerred
 ===AIq2:
 I tried run command "npm run dev", it got error when installing `x86_64-unknown-linux-gnu`, let's leave this issue for now, please help me understand how npm invoked cargo?
 
