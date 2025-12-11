@@ -8,7 +8,9 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "start": "node bin/krtk-rs.js",
+    "dev": "ts-node bin/krtk-rs.ts"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
